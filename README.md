@@ -29,18 +29,12 @@ ITI Shopping is a modern and fully responsive e-commerce web application, design
    cd ITI-Shopping
    
 Install dependencies:
-    ```sh
-           
-           npm install
+    ```  npm install ```
 
 2.Run the development server:
-    ```sh
-    
-    ng serve
+    ``` ng serve```
 3.Open your browser and go to:
-    ```sh
-    
-    http://localhost:4200
+    ```  http://localhost:4200```
 ## 🛹 Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
