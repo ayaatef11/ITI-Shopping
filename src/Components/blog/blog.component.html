@@ -19,24 +19,12 @@
 <section class="content">
     <div class="section-title">Mobile Development</div>
     <div class="articles">
-        <div class="article">
-            <img src="img/images.jpg" alt="Article Image">
-            <h2>How To Design The Perfect Hero Image: Guide, Practical Tips And Inspiration</h2>
-            <p>The hero image, a large banner image prominently placed on a web page, generally in the front and center.</p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="article">
-            <img src="img/images.jpg" alt="Article Image">
-            <h2>How To Design The Perfect Hero Image: Guide, Practical Tips And Inspiration</h2>
-            <p>The hero image, a large banner image prominently placed on a web page, generally in the front and center.</p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="article">
-            <img src="img/images.jpg" alt="Article Image">
-            <h2>How To Design The Perfect Hero Image: Guide, Practical Tips And Inspiration</h2>
-            <p>The hero image, a large banner image prominently placed on a web page, generally in the front and center.</p>
-            <a href="#">Read More</a>
-        </div>
+      <div *ngFor="let article of articles" class="article">
+        <img [src]="article.image" alt="Article Image">
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.description }}</p>
+        <a [href]="article.link">Read More</a>
+      </div>
     </div>
 </section>
 <section class="call-to-action">
