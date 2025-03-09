@@ -30,7 +30,10 @@
 
             ],
             "scripts": ["src/assets/js/bookcall.js",
-              "src/assets/js/Contact.js"]
+              "src/assets/js/Contact.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/Contact.js"
+            ]
           },
           "configurations": {
             "production": {
