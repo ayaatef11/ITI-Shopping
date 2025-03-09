@@ -15,11 +15,11 @@ constructor() {
 ngOnInit() {
 }
 teamMembers = [
-  { name: 'Walid', role: 'Team Leader &', img: 'img/walid.jpeg' },
-  { name: 'Adham Nasser', role: 'Expertise Page', img: 'img/adham.JPG' },
-  { name: 'Mohamed Soltan', role: 'Blog Page', img: 'img/mohamed soltan.jpeg' },
-  { name: 'Abdelrahman Ibrahim', role: 'Product Page', img: 'img/abdelrahman.jpg' },
-  { name: 'Zeyad Mohamed', role: 'About Page', img: 'img/zeyad.jpeg' }
+  { name: 'Walid', role: 'Team Leader &', img: 'img/avatar-01.png' },
+  { name: 'Adham Nasser', role: 'Expertise Page', img: 'img/avatar-02.png' },
+  { name: 'Mohamed Soltan', role: 'Blog Page', img: 'img/avatar-03.png' },
+  { name: 'Abdelrahman Ibrahim', role: 'Product Page', img: 'img/avatar-04.png' },
+  { name: 'Zeyad Mohamed', role: 'About Page', img: 'img/avatar-05.png' }
 ];
 
 technoItems = [
