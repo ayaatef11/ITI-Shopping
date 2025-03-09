@@ -12,19 +12,12 @@
 
 <!-- end portfolio -->
 
-
-<!-- start Mobile & Web Applications   -->
-
 <div class="mobile">
     <div class="container">
         <div class="web" >
             <h1>Mobile & Web Applications</h1>
             <p>This showcase highlights various mobile and web applications developed for different industries, aimed at providing the best user experience and functionality.</p>
         </div>
-
-
-        <!-- start esopos  -->
-
         <section class="app" id="esopos">
             <div class="app-info">
                 <img src="img/esopos.webp" alt="" >
@@ -49,9 +42,6 @@
         </section>
 
         <!-- end esopos  -->
-
-        <!-- start stacksend  -->
-
         <section class="app" id="stacksend">
             <div class="app-info">
                 <img src="img/stacksend.svg" alt="" >
@@ -75,10 +65,6 @@
         </section>
 
         <!-- end stacksend  -->
-
-
-        <!-- start evergenius  -->
-
         <section class="app" id="evergenius">
             <div class="app-info evergenius ">
                 <img src="img/mycovergenius_cover.png" alt="" >
@@ -102,9 +88,6 @@
             <img src="img/convmobile.png" alt="">
         </section>
 
-        <!-- end evergenius  -->
-
-        <!-- start mycoevergenius  -->
         <section class="app" id="mycoevergenius">
             <div class="app-info evergenius">
                 <img src="img/logo1.png" alt="" >
@@ -130,67 +113,35 @@
 
         <!-- end mycoevergenius  -->
 
-
-        <!-- start oxford  -->
-
         <section class="app" id="oxford">
             <div class="app-info  ">
                 <img src="img/buildbay.webp" alt="" >
                 <p>Real estate purchase and assets management for everyday people.</p>
                 <div class="details">
-                    <div class="detail">
-                        <p>PHASE</p>
-                        <p>Grow</p>
-                    </div>
-                    <div class="detail">
-                        <p>SERVICES</p>
-                        <p>Real Estate </p>
-
-                    </div>
-                    <div class="detail">
-                        <p>PLATFORMS</p>
-                        <p>Web</p>
-                    </div>
+                  <div *ngFor="let detail of oxforddetails" class="detail">
+                    <p>{{ detail.label }}</p>
+                    <p>{{ detail.value }}</p>
+                  </div>
                 </div>
             </div>
             <img src="img/xfordlap.png" alt="">
         </section>
-
-        <!-- end oxford  -->
-
-        <!-- start boundlesspay  -->
 
         <section class="app" id="boundlesspay">
             <div class="app-info evergenius ">
                 <img src="img/boundlesspay.webp" alt="" >
                 <p>Real estate purchase and assets management for everyday people.</p>
                 <div class="details">
-                    <div class="detail">
-                        <p>PHASE</p>
-                        <p>Grow</p>
-                    </div>
-                    <div class="detail">
-                        <p>SERVICES</p>
-                        <p>Crypto trading </p>
-
-                    </div>
-                    <div class="detail">
-                        <p>PLATFORMS</p>
-                        <p>Web, Mobile</p>
-                    </div>
+                  <div *ngFor="let detail of boundlesspaydetails" class="detail">
+                    <p>{{ detail.label }}</p>
+                    <p>{{ detail.value }}</p>
+                  </div>
                 </div>
             </div>
             <img ngSrc="img/mob apple.png" alt="" height="1294" width="640">
         </section>
-
-        <!-- end boundlesspay  -->
-
     </div>
 </div>
-
-<!-- end Mobile & Web Applications   -->
-
-<!-- start intro-section  -->
 
 <section class="intro-section">
     <div class="intro">
@@ -209,10 +160,6 @@
     </div>
 </section>
 
-<!-- start intro-section  -->
-
-
-<!-- start work-section  -->
 
 <section class="work-section">
     <div class="work-content">
@@ -224,6 +171,5 @@
     </div>
 </section>
 
-<!-- end work-section  -->
 
 

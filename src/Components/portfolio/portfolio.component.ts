@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NgOptimizedImage} from "@angular/common";
+import {NgFor, NgOptimizedImage} from "@angular/common";
 import {LazyLoadImageModule} from "ng-lazyload-image";
 
 @Component({
@@ -7,7 +7,8 @@ import {LazyLoadImageModule} from "ng-lazyload-image";
   standalone: true,
   imports: [
     NgOptimizedImage,
-    LazyLoadImageModule
+    LazyLoadImageModule,
+    NgFor
   ],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
@@ -20,7 +21,20 @@ img1:string='img/pngtree-a-laptop-laying-on-a-brown-desk-image_13038932.jpg';
   }
   ngOnInit() {
   }
+  // ------variables
+  boundlesspaydetails = [
+    { label: 'PHASE', value: 'Grow' },
+    { label: 'SERVICES', value: 'Crypto trading' },
+    { label: 'PLATFORMS', value: 'Web, Mobile' }
+  ];
 
+  oxforddetails = [
+    { label: 'PHASE', value: 'Grow' },
+    { label: 'SERVICES', value: 'Real Estate' },
+    { label: 'PLATFORMS', value: 'Web' }
+  ];
+ 
+  //--------functions
   workWithUs() {
     alert("Thank you for your interest! We'll get in touch soon.");
   }
