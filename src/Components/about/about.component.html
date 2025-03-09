@@ -14,10 +14,8 @@
         </div>
     </div>
 </section>
-<!-- end our who we are -->
 
 
-<!-- start our services -->
 <section class="our-services">
     <div class="container slide-our">
         <h3>OUR SERVICES</h3>
@@ -26,62 +24,31 @@
     </div>
 </section>
 
-<!-- end our services -->
 
-<!-- start technologies  -->
 <section class="technologies">
     <div class="container">
-        <div class="techno-item left">
-            <h3>01</h3>
-            <h2>Node.js</h2>
-            <a href="https://nodejs.org/" target="_blank"><p class="arrow">→</p></a>
-        </div>
-        <div class="techno-item right">
-            <h3>02</h3>
-            <h2>Laravel</h2>
-            <a href="https://laravel.com/"  target="_blank"><p class="arrow">→</p></a>
-        </div>
-        <div class="techno-item left">
-            <h3>03</h3>
-            <h2>Vue.js</h2>
-            <a href="https://vuejs.org/"  target="_blank"><p class="arrow">→</p></a>
-        </div>
-        <div class="techno-item right">
-            <h3>04</h3>
-            <h2>React.js</h2>
-            <a href="https://react.dev/"  target="_blank"><p class="arrow">→</p></a>
-        </div>
+      <div *ngFor="let item of technoItems" [ngClass]="item.position" class="techno-item">
+        <h3>{{ item.number }}</h3>
+        <h2>{{ item.name }}</h2>
+        <a [href]="item.url" target="_blank">
+          <p class="arrow">→</p>
+        </a>
+      </div>
+
     </div>
 </section>
-<!-- end technologies  -->
 
-
-<!-- start our value -->
 <section class="our-value">
     <div class="container">
         <div class="value-container leftv">
             <h2>OUR VALUE</h2>
             <h1>A melting pot for the best idea</h1>
-            <div class="value-item">
-                <div class="icon">❤️</div>
-                <div class="content">
-                    <h3>Integrity</h3>
-                    <p>We hold ourself to a strong ethical and moral code</p>
-                </div>
-            </div>
-            <div class="value-item">
-                <div class="icon">✅</div>
-                <div class="content">
-                    <h3>Trust</h3>
-                    <p>We are dependable loyal and hard working to achieve the same goal.</p>
-                </div>
-            </div>
-            <div class="value-item">
-                <div class="icon">🏆</div>
-                <div class="content">
-                    <h3>Excellence</h3>
-                    <p>We consistently strive to do high-quality work and give no room for error.</p>
-                </div>
+            <div *ngFor="let value of values" class="value-item">
+              <div class="icon">{{ value.icon }}</div>
+              <div class="content">
+                <h3>{{ value.title }}</h3>
+                <p>{{ value.description }}</p>
+              </div>
             </div>
         </div>
         <div class="value-image-container rightv">
@@ -89,10 +56,8 @@
         </div>
     </div>
 </section>
-<!-- end our value -->
 
 
-<!-- start Our team  -->
 <section class="team-section">
     <div class="rights">
         <h2>Our Team</h2>
@@ -108,10 +73,6 @@
     </div>
 </section>
 
-<!-- end Our team  -->
-
-
-<!-- start work-section  -->
 
 <section class="work-section">
     <div class="work-content">
@@ -123,5 +84,3 @@
 
     </div>
 </section>
-
-<!-- end work-section  -->
