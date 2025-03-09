@@ -19,16 +19,25 @@ ITI Shopping is a modern and fully responsive e-commerce web application, design
 - **API Integration:** Mock API or backend integration  
 
 ## 📸 Screenshots
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
-![Product Page](https://via.placeholder.com/800x400?text=Product+Page+Screenshot)
+![image](https://github.com/user-attachments/assets/5f1000ac-6fd1-4f95-851e-dd628d52d611)
+![image](https://github.com/user-attachments/assets/536316a6-8391-4583-befe-27af7aa82123)
 
 ## 📦 Installation
 1. Clone the repository:
    ```sh
    git clone https://github.com/ayaatef11/ITI-Shopping.git
    cd ITI-Shopping
+   
+Install dependencies:
+```sh
+ npm install
 
-
+2.Run the development server:
+```sh
+ ng serve
+3.Open your browser and go to:
+```sh
+http://localhost:4200
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
