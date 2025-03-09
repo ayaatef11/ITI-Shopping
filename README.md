@@ -1,6 +1,33 @@
-# ItiProject
+# 🛍️ ITI Shopping - E-Commerce Web Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://ayaatef11.github.io/ITI-Shopping/home)
+
+ITI Shopping is a modern and fully responsive e-commerce web application, designed to provide a seamless online shopping experience. This project was built using **Angular**, featuring dynamic product listings, a shopping cart system, and smooth navigation.
+
+## 🚀 Features
+✅ Fully responsive and user-friendly design  
+✅ Product listing with detailed product views  
+✅ Shopping cart with add/remove functionality  
+✅ Category-based product filtering  
+✅ User authentication and account management  
+✅ Smooth navigation with Angular Router  
+
+## 🛠 Technologies Used
+- **Frontend:** Angular  
+- **Styling:** Bootstrap / SCSS / CSS  
+- **Routing & State Management:** Angular Router  
+- **API Integration:** Mock API or backend integration  
+
+## 📸 Screenshots
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
+![Product Page](https://via.placeholder.com/800x400?text=Product+Page+Screenshot)
+
+## 📦 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ayaatef11/ITI-Shopping.git
+   cd ITI-Shopping
+
 
 ## Development server
 
