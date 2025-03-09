@@ -1,6 +1,6 @@
 # 🛍️Shopping - E-Commerce Web Application
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://ayaatef11.github.io/ITI-Shopping/home)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge)]([https://ayaatef11.github.io/ITI-Shopping/home](https://ayaatef11.github.io/ITI-Shopping/iti-project/))
 
 ITI Shopping is a modern and fully responsive e-commerce web application, designed to provide a seamless online shopping experience. This project was built using **Angular**, featuring dynamic product listings, a shopping cart system, and smooth navigation.
 
