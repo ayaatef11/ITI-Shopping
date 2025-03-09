@@ -50,7 +50,8 @@
                   "maximumError": "10MB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "iti-project"
             },
             "development": {
               "optimization": false,
